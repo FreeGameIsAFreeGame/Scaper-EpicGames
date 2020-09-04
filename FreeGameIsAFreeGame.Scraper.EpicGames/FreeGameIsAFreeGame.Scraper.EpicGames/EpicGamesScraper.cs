@@ -22,6 +22,7 @@ namespace FreeGameIsAFreeGame.Scraper.EpicGames
         private const string GRAPH_URL = "https://www.epicgames.com/store/backend/graphql-proxy";
 
         string IScraper.Identifier => "EpicGames";
+        string IScraper.DisplayName => "Epic Games";
 
         private readonly IBrowsingContext context;
         private readonly ILogger logger;
