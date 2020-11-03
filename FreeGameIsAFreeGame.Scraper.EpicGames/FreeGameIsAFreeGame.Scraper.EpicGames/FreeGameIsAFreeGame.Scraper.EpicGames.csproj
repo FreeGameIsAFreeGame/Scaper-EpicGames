@@ -2,11 +2,18 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Title>Free Game Is A Free Game - Epic Games Scraper</Title>
+        <Copyright>FreeGameIsAFreeGame</Copyright>
+        <PackageProjectUrl>https://github.com/FreeGameIsAFreeGame/Scaper-EpicGames</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/FreeGameIsAFreeGame/Scaper-EpicGames/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/FreeGameIsAFreeGame/Scaper-EpicGames</RepositoryUrl>
+        <Authors>Thundernerd</Authors>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="AngleSharp" Version="0.14.0" />
-      <PackageReference Include="FreeGameIsAFreeGame.Core" Version="1.0.0" />
+      <PackageReference Include="FreeGameIsAFreeGame.Core" Version="2.0.0" />
       <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
       <PackageReference Include="NLog" Version="4.7.4" />
     </ItemGroup>
